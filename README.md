@@ -1,0 +1,127 @@
+# CopyEnglishName
+
+<div align="center">
+
+![World of Warcraft](https://img.shields.io/badge/World%20of%20Warcraft-FFD700?style=for-the-badge&logo=world-of-warcraft&logoColor=000000)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg?style=for-the-badge)
+
+**An elegant World of Warcraft addon for copying English names**
+
+</div>
+
+---
+
+## 📖 Description / 简介
+
+CopyEnglishName is a practical addon designed for World of Warcraft players, helping users quickly copy English names within the game. Whether it's item names, skill names, or NPC names, this addon makes it easy to capture and copy them to your clipboard.
+
+CopyEnglishName 是一个专为魔兽世界玩家设计的实用插件，它能够帮助玩家快速复制游戏中的英文名称，无论是物品名称、技能名称还是NPC名称，都能轻松获取并复制到剪贴板。
+
+## ✨ Features / 主要特性
+
+- 🎯 **One-Click Copy** - Quickly copy in-game English names with a single click / 一键复制 - 简单快捷地复制游戏内英文名称
+- 📱 **User-Friendly** - Clean and intuitive interface design / 用户友好 - 简洁直观的界面设计
+- 🚀 **Lightweight & Efficient** - Minimal resource usage, no impact on game performance / 轻量高效 - 占用资源少，不影响游戏性能
+- 🛡️ **Stable & Reliable** - Thoroughly tested for game compatibility / 稳定可靠 - 经过充分测试，确保游戏兼容性
+- 📋 **Multi-Scene Support** - Supports copying names from items, skills, NPCs, and more / 多场景支持 - 支持物品、技能、NPC等多种名称复制
+
+## 📦 Installation / 安装说明
+
+1. Download the latest version of the addon files / 下载最新版本的插件文件
+2. Extract the files to your World of Warcraft addon directory: `World of Warcraft/_retail_/Interface/AddOns/` / 将文件解压到您的魔兽世界插件目录
+3. Restart your game client / 重启游戏客户端
+4. Enable CopyEnglishName in the in-game addon management / 在游戏内插件管理中启用 CopyEnglishName
+
+## 🎮 Usage / 使用方法
+
+1. Hover your mouse over the item, skill, or NPC whose name you want to copy in the game / 在游戏中将鼠标悬停在您想要复制名称的物品、技能或NPC上
+2. Use the addon's shortcut key or button to copy / 使用插件提供的快捷键或按钮进行复制
+3. The name will be automatically copied to your clipboard / 名称将自动复制到您的剪贴板中
+4. Paste and use it wherever needed / 在需要的地方粘贴使用即可
+
+## 🛠️ Technical Details / 技术细节
+
+- **Development Language**: Lua / **开发语言**: Lua
+- **Compatible Version**: Latest World of Warcraft version / **兼容版本**: 魔兽世界最新版本
+- **File Structure** / **文件结构**:
+  ```
+  CopyEnglishName/
+  ├── CopyEnglishName.toc    # Addon configuration file / 插件配置文件
+  ├── ItemDatabase.lua      # Item database / 物品数据库
+  ├── logo.tga              # Addon icon / 插件图标
+  └── README.md             # Project documentation / 项目说明文档
+  ```
+
+## 🤝 Contributing / 贡献指南
+
+We welcome any form of contribution! If you'd like to contribute to this project, please follow these steps:
+
+我们欢迎任何形式的贡献！如果您想要为这个项目做出贡献，请遵循以下步骤：
+
+1. Fork this project / Fork 本项目
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`) / 创建您的特性分支
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`) / 提交您的更改
+4. Push to the branch (`git push origin feature/AmazingFeature`) / 推送到分支
+5. Open a Pull Request / 开启一个 Pull Request
+
+## 🐛 Bug Reports / 问题反馈
+
+If you encounter any issues or have suggestions for improvement while using this addon, please:
+
+如果您在使用过程中遇到任何问题或有改进建议，请：
+
+1. Check the [Issues page](https://github.com/Abelliuxl/CopyEnglishName/issues) / 查看 [Issues 页面](https://github.com/Abelliuxl/CopyEnglishName/issues)
+2. Search for similar existing issues / 搜索是否已有类似问题
+3. If none exist, create a new Issue with a detailed description of your problem / 如果没有，请创建新的 Issue，详细描述您的问题
+
+## 📄 License / 许可证
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+
+---
+
+## MIT License
+
+MIT License
+
+Copyright (c) 2025 Abelliuxl
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+<div align="center">
+
+## 🙏 Acknowledgments / 致谢
+
+Thanks to all the developers and testers who contributed to this project!
+
+感谢所有为这个项目做出贡献的开发者和测试人员！
+
+---
+
+**Made with ❤️ for World of Warcraft community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Abelliuxl-black?style=for-the-badge&logo=github)](https://github.com/Abelliuxl)
+[![World of Warcraft](https://img.shields.io/badge/World%20of%20Warcraft-Community-orange?style=for-the-badge)](https://worldofwarcraft.com)
+
+</div>

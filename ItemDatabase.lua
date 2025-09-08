@@ -88,7 +88,7 @@ local function getItemName(id)
         nameCache[id] = "未知物品"
         return "未知物品"
     end
-    for i = 1, 32 do
+    for i = 1, 33 do
         local chunkTable = _G["ItemNames_" .. i]
         if chunkTable and chunkTable[id] then
             local nameData = chunkTable[id]
@@ -118,7 +118,7 @@ local function getItemIdByChineseName(chineseName)
     if not loadDataAddon() then
         return nil, "未找到物品"
     end
-    for i = 1, 32 do
+    for i = 1, 33 do
         local chunkTable = _G["ItemNames_" .. i]
         if chunkTable then
             for id, data in pairs(chunkTable) do
@@ -145,9 +145,9 @@ StaticPopupDialogs["COPY_ENGLISH_NAME"] = {
             self:Hide()
             return
         end
-        self.editBox:SetText(data.name)
-        self.editBox:HighlightText()
-        self.editBox:SetFocus()
+        self.EditBox:SetText(data.name)
+        self.EditBox:HighlightText()
+        self.EditBox:SetFocus()
     end,
     EditBoxOnEnterPressed = function(self)
         self:GetParent():Hide()
@@ -205,7 +205,7 @@ SlashCmdList["COPYDEBUG"] = function()
     print("  启用状态: " .. (loadable and "是" or "否") .. (reason and " (原因:" .. reason .. ")" or ""))
     print("  已加载: " .. (isDataLoaded and "是" or "否"))
     if isDataLoaded then
-        for i = 1, 32 do
+        for i = 1, 33 do
             local tableName = "ItemNames_" .. i
             print("  表 " .. tableName .. ": " .. (_G[tableName] and "已加载" or "未加载"))
         end

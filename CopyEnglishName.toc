@@ -1,8 +1,8 @@
-## Interface: 110105
+## Interface: 110200
 ## Title: CopyEnglishName
 ## Notes: Displays the English name of an item from /en [itemlink] in a copyable window.
 ## Author: Tindall
-## Version: 2.0
+## Version: 2.1
 ## SavedVariables: CopyNameDB
 ## IconTexture: Interface\AddOns\CopyEnglishName\logo.tga 
 
